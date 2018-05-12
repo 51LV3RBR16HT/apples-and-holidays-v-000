@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
         puts "  #{holiday_name.to_s.split( pattern "_").collect {|split_name| split_name.capitalize}.join( separator " ")}: #{supplies.join(", ")}"
       end
     end
-
+end
 
 # Original Code:
   #    seasons_string = seasons.to_s
@@ -84,9 +84,7 @@ def all_supplies_in_holidays(holiday_hash)
   #       holiday.capitalize!
   #     end
   #     puts "  #{holiday_array.join(" ")}: #{supplies.join(", ")}"
-    end
-  end
-end
+
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
