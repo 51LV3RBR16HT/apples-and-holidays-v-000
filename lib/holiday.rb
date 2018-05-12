@@ -31,7 +31,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # holiday_hash[:winter][:new_years] << supply
 
   # What if we want to add more winter holidays in the future?
-  holiday_hash[:winter].each { |holiday, supplies| supplies << supply}
+  holiday_hash[:winter].each { |holiday, supplies| supplies << supply }
 end
 
 
